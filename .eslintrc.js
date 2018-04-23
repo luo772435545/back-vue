@@ -24,6 +24,7 @@ module.exports = {
     'no-inner-declarations': 'off',
     'vue/no-parsing-error': [2, { 'x-invalid-end-tag': false }],
     'vue/no-template-key': 'off',
+    'no-useless-escape':'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
   }
